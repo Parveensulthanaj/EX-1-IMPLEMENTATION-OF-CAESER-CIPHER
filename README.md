@@ -12,6 +12,7 @@ For decryption, subtract the key from each character of the ciphertext.
 a. If the result is less than 'A' for uppercase or 'a' for lowercase, add 26 to wrap within the alphabet.
 Display the decrypted text.
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -56,6 +57,7 @@ int main() {
     
     return 0;
 }
+```
 ## OUTPUT:
 <img width="1920" height="1080" alt="Screenshot (690)" src="https://github.com/user-attachments/assets/855b498b-4076-41a6-851b-76bcb9a1f10a" />
 
